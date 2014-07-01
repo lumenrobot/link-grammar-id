@@ -1,0 +1,23 @@
+ %***************************************************************************%
+ %                                                                           %
+ %       Copyright (C) 1991-1998  Daniel Sleator and Davy Temperley          %
+ %       2014  Hendy Irawan                                                  %
+ %       http://www.link.cs.cmu.edu/link                                     %
+ %       http://www.abisource.com/projects/link-grammar/                     %
+ %       https://github.com/ceefour/link-grammar-id                          %
+ %                                                                           %
+ %***************************************************************************%
+
+kuda gajah unta kucing anjing tikus burung: S+ or O- or O+;
+Prabowo Jokowi saya: (S+ or O+) or (Oh- & {W-});
+
+makan memakan lari berlari: S- & {W-};
+
+apa apakah: Ss+;
+siapa: Oh+;
+
+itu: (Ss- & O+ & {W-}) or (O- & Ss- & {W-}) or (O- & Ss- & {W-});
+
+LEFT-WALL: W+ & {Xp+};
+
+"?": Xp-;

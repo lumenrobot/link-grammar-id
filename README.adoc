@@ -1,0 +1,5 @@
+= Dictionary bahasa Indonesia sederhana untuk Link Grammar
+ 
+== Penggunaan
+
+    link-parser /home/ceefour/git/link-grammar-id
