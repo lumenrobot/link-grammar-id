@@ -1,4 +1,6 @@
 = Dictionary bahasa Indonesia sederhana untuk Link Grammar
+
+Link Grammar Parser Dictionary for Indonesian language (bahasa Indonesia)
  
 == Penggunaan
 
